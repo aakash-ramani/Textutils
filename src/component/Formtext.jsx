@@ -9,7 +9,7 @@ export default function Formtext({mode }) {
   const [txtval ,setTxtval] = useState("")
   const[alrtmsg , setAlrtrmsg] =useState()
   const[cn , setCn]= useState()
-  const[wrd , setWrd]=useState(0)
+  const[ setWrd]=useState(0)
   const[theme , setTheme] = useState("light")
 
 

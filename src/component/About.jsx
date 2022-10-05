@@ -1,4 +1,3 @@
-import { fontStyle } from '@mui/system';
 import React from 'react'
 import { useState,useEffect } from 'react';
 
@@ -29,7 +28,7 @@ export default function About(props)
       <div style={{ marginbottom: "10px" }}>
       <center>
         <div style={{marginTop:"55px" , fontSize:"25px" , fontWeight:"bolder", fontStyle:"italic" ,fontFamily:"cursive" , letterSpacing:"0.05em"}}  className={`text-${theme}`}>
-          Copyright | All Rights Reserved By Aks Ramani. 🔥
+          Copyright | All Rights Reserved By Aks Ramani. 
 
         </div>
       </center>
